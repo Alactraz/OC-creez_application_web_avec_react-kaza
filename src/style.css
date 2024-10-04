@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
@@ -42,7 +41,8 @@ body {
 .banner__image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 25px;
 }
 .banner__text {
@@ -80,7 +80,7 @@ body {
   height: 100%;
   border-radius: 25px;
   margin: auto;
-  background-color: #E5E5E5; /* F6F6F6 */
+  background-color: #E5E5E5;
 }
 .logement__list {
   margin: 0;
@@ -89,7 +89,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   row-gap: 56px;
-  column-gap: 50px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
 }
 .logement__list__content {
   width: 340px;
@@ -106,7 +107,8 @@ body {
 .logement__list__content__cover {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
 }
 .logement__list__content__name {
@@ -126,7 +128,7 @@ body {
     padding: 0px;
     row-gap: 20px;
   }
-  .logement__list__content__bg {
+  .logement__content__bg {
     height: 98%;
   }
 }
@@ -140,7 +142,8 @@ body {
     max-height: 500px;
   }
   .logement__list__content img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .header {
@@ -249,4 +252,4 @@ body {
     font-size: 14px;
     line-height: 20px;
   }
-}
+}/*# sourceMappingURL=style.css.map */
