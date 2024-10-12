@@ -4,6 +4,7 @@ import products from "../../datas/logement.json";
 
 import Rating from "../../components/Rating";
 import Host from "../../components/Host";
+import Slider from "../../components/Slider";
 import Tags from "../../components/Tags";
 import Collapse from "../../components/Collapse";
 import Error from '../Error'
@@ -26,6 +27,7 @@ const Logement = () => {
 
     return (
         <main className="product">
+            <Slider slides={pictures} />
             <div className="product__content">
                 <div className="product__content__left">
                     <h1 className="product__content__left__title">{title}</h1>
