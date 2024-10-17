@@ -27,11 +27,18 @@
 }
 
 .about__informations__card__title {
+  margin-top: 0;
   background-color: #FF6060;
+  width: 100%;
   font-size: 18px;
+  font-weight: 500;
+  line-height: 25.67px;
   color: white;
   padding: 15px 20px;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .about__informations__card__info {
@@ -51,4 +58,14 @@
   .about__informations__card__title {
     font-size: 15px;
   }
+}
+.show {
+  max-height: 500px; /* ou toute autre hauteur adaptée */
+  padding: 10px 20px;
+  transition: max-height 0.25s ease-out, padding 0.2s ease-out;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.25s ease;
 }
