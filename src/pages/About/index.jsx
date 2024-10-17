@@ -1,9 +1,8 @@
 import React from "react";
-import '../../Style/about.css'
 import Collapse from "../../components/Collapse";
 
 import bannerImg from "../../assets/banner-about.png";
-
+import '../../Style/about.css'
 const About = () => {
   return (
     <main className="about">

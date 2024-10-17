@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { logementList } from '../../datas/logement'
 import '../../Style/logements.css'
+import '../../Style/produit.css'
 
 function LocationList() {
 

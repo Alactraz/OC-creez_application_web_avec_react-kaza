@@ -1,5 +1,6 @@
 import React from "react";
-
+import '../../Style/about.css'
+import '../../Style/produit.css'
 import arrowDown from "../../assets/arrowDown.svg";
 
 
